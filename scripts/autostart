@@ -2,12 +2,11 @@
 
 # this is just an example!
 # add your autostart stuffs here
-xbacklight -set 5 &
-xmodmap ~/.xmodmap-sid &
+#xbacklight -set 5 &
+#xmodmap ~/.xmodmap-sid &
 picom &
-xrdb merge ~/.Xresources &
-feh --bg-fill ~/Pictures/wall/gruvchad.png &
-
+#xrdb merge ~/.Xresources &
+feh --bg-fill --randomize ~/Pictures/wall/* &
 # run bar script and dwm ( do not remove this )
 ~/.config/chadwm/scripts/./bar.sh &
 dwm
