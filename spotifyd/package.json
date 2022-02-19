@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dbus": "^1.0.7",
+    "handy-storage": "^2.1.6",
+    "node-notifier": "^10.0.1"
+  }
+}
